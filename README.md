@@ -16,7 +16,12 @@
 * The related generator model can be downloaded from [HERE](https://pan.baidu.com/s/1YQ0z6pS4_vWlY1cyl-OagQ)(ydee), please put them to './pretrainModel/'
 
 ### Runing
-1. Run the following commands. Loading different generator models based on the input image. For example, input a blurry face image, please load the model `stylegan2-ffhq-config-f.pt`
+1. Start visdom.
+   ```sh
+    python -m visdom.server
+    ```
+
+3. Run the following commands. Loading different generator models based on the input image. For example, input a blurry face image, please load the model `stylegan2-ffhq-config-f.pt`
     ```sh
     python run.py --pretrainStyleGanModel './pretrainModel/stylegan2-ffhq-config-f.pt'
     ```
