@@ -9,6 +9,10 @@
 * Pytorch 1.8
 * opencv-python
 * scipy
+* scikit-image
+* scikit-learn
+* matplotlib
+* dominate 
 * visdom
 * pytorch-msssim (Please refer [HERE](https://github.com/jorge-pessoa/pytorch-msssim))
 
