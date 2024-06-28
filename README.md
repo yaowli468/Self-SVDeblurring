@@ -7,6 +7,8 @@
 * Linux(Tested on Ubuntu 18.04) 
 * Python 3.7 (Recomend to use [Anaconda](https://www.anaconda.com/products/individual#linux))
 * Pytorch 1.8
+* opencv-python
+* scipy
 * visdom
 * pytorch-msssim (Please refer [HERE](https://github.com/jorge-pessoa/pytorch-msssim))
 
